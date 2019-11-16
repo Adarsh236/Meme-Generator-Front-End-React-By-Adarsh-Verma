@@ -22,7 +22,7 @@ class Register extends React.Component {
   }
 
   onSubmitSighIn = () =>{
-    fetch('http://localhost:5500/register', {
+    fetch('http://localhost:5505/register', {
       method: 'post',
       headers: {'Content-Type': 'application/json'},
       body: JSON.stringify({

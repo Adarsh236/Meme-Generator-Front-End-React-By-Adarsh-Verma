@@ -1,7 +1,7 @@
 import React from 'react';
 
 
-class SignIn extends React.Component {
+class Signin extends React.Component {
 
 constructor(props){
   super(props);
@@ -17,10 +17,10 @@ onPasswordChange =(event)=>{
   this.setState({signInPassword: event.target.value})
 }
 
-onSubmitSighIn = () =>{
-  fetch('http://localhost:5500/signin', {
+onSubmitSignIn = () =>{
+  fetch('http://localhost:5505/signin', {
     method: 'post',
-    header: {'Content-Type': 'application/json'},
+    headers: {'Content-Type': 'application/json'},
     body: JSON.stringify({
       email: this.state.signInEmail,
       password: this.state.signInPassword
@@ -29,7 +29,7 @@ onSubmitSighIn = () =>{
   .then(response => response.json())
   .then(user =>{
     if (user.id){
-      this.props.loadUser(user);
+      this.props.loadUser(user)
     this.props.onRouteChange('home');
   }
   })}
@@ -61,7 +61,8 @@ onSubmitSighIn = () =>{
         className="b pa2 input-reset ba bg-transparent hover-bg-black hover-white w-100" 
         type="password" 
         name="password"  
-        id="password"onChange={this.onPasswordChange}/>
+        id="password"
+        onChange={this.onPasswordChange}/>
         
       </div>
      
@@ -89,4 +90,4 @@ onSubmitSighIn = () =>{
     
 }
 
-export default SignIn;
+export default Signin;

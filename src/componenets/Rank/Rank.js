@@ -2,7 +2,7 @@ import React from 'react'
 
 const Rank = ({name, entries}) => {
   return (
-    <div>
+    <div className='rock'style={{ position: 'relative', zIndex: '1'}}>
       <div className='white f3'>
         {`${name}, your current Meme is...`}
       </div>

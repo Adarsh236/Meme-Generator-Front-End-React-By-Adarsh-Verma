@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "cloudinary-core": "^2.7.4",
     "react": "^16.11.0",
     "react-dom": "^16.11.0",
     "react-particles-js": "^2.7.0",

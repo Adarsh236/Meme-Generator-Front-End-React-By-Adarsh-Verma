@@ -35,9 +35,6 @@ class Signin extends React.Component {
       })
   }
 
-
-
-
   render() {
     const { onRouteChange } = this.props;
 
@@ -64,9 +61,7 @@ class Signin extends React.Component {
                   name="password"
                   id="password"
                   onChange={this.onPasswordChange} />
-
               </div>
-
             </fieldset>
             <div className="">
               <input
@@ -77,15 +72,9 @@ class Signin extends React.Component {
             </div>
             <div className="lh-copy mt3">
               <p onClick={() => onRouteChange('register')} className="f6 link dim black db pointer">Register</p>
-
             </div>
           </div>
         </main>
-
-
-
-
-
       </article>);
   }
 

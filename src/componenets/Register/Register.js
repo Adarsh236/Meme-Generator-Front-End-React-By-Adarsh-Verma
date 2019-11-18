@@ -39,11 +39,6 @@ class Register extends React.Component {
         }
       })
   }
-
-
-
-
-
   render() {
     return (
       <article className="br4 ba dark-gray b--black-10 mv4 w-100 w-50-m w-25-l mw7 shadow-7 center"style={{ position: 'relative', zIndex: '1'}}>

@@ -1,12 +1,12 @@
 .dropzone-wrapper {
     cursor: pointer;
     height: 100%;
-  }
-  .dropzone {
+}
+.dropzone {
     display: flex;
     align-items: center;
     justify-content: center;
     width: 100%;
     height: 100%;
     padding: 4rem;
-  }
+}

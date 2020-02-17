@@ -1,13 +1,13 @@
 {
   "name": "amemegenerator",
-  "version": "0.1.0",
+  "version": "1.1.1",
   "private": true,
   "dependencies": {
     "cloudinary-core": "^2.7.4",
     "react": "^16.11.0",
     "react-dom": "^16.11.0",
     "react-particles-js": "^2.7.0",
-    "react-scripts": "3.2.0",
+    "react-scripts": "^3.4.0",
     "react-tilt": "^0.1.4",
     "tachyons": "^4.11.1"
   },
@@ -31,5 +31,17 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  }
+  },
+  "description": "This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Adarsh236/Meme-Generator-Front-End-React-By-Adarsh-Verma.git"
+  },
+  "author": "Adarsh Verma",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Adarsh236/Meme-Generator-Front-End-React-By-Adarsh-Verma/issues"
+  },
+  "homepage": "https://github.com/Adarsh236/Meme-Generator-Front-End-React-By-Adarsh-Verma#readme"
 }
